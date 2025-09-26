@@ -1,0 +1,136 @@
+/* General */
+
+body {
+  background-color: #dcdcdd;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #36454f !important;
+}
+.navbar .nav-link,
+.navbar-brand {
+  color: #ffffff;
+}
+.navbar .nav-link:hover {
+  color: #c5c3c6;
+}
+
+/* Hero Section *//*
+#hero {
+  position: relative;
+}*/
+
+#hero h1, 
+#hero p {
+  color: #ffffff; 
+  text-shadow: 0px 2px 6px rgba(0,0,0,0.7);
+}
+
+#hero .btn-primary {
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+}
+#hero .btn-primary:hover {
+  background-color: #899097;
+  color: #000;
+}
+#hero .btn-outline-secondary {
+  border-color: #c5c3c6;
+  color: #ffffff;
+}
+#hero .btn-outline-secondary:hover {
+  background-color: #c5c3c6;
+  color: #000000;
+}
+
+/* Services Section */
+#services {
+  background-color:#fff  /*#dcdcdd/*#002b36;*/
+}
+#services h2 {
+  color: #003d40;
+}
+#services .card {
+  background-color:  #dcdcdd; /*#a1a1a1;*/
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+#services .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Portfolio  */
+#portfolio {
+  background-color: #003d40;
+  color: #ffffff;
+}/*
+#portfolio .card {
+  background-color: #c5c3c6;
+  border: none;
+}*/
+#portfolio .card h5 {
+  color: #000000;
+}
+#portfolio .btn-primary {
+  background-color: #36454f;
+  border: none;
+}
+#portfolio .btn-primary:hover {
+  background-color: #899097;
+}
+
+/* Contact Section *//*
+#contact {
+  background-color:  #002b36;
+}*/
+#contact {
+  background-color: #f5f7f8; /* subtle contrast with rest */
+  padding: 60px 0;
+}
+
+#contact h2 {
+  color: #36454f;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#contact .card {
+  border: none;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+#contact label {
+  font-weight: 600;
+  color: #36454f;
+}
+
+#contact .form-control {
+  border-radius: 8px;
+  border: 1px solid #c5c3c6;
+}
+
+#contact .btn-success {
+  background-color: #4c5c68;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+#contact .btn-success:hover {
+  background-color: #003d40;
+}
+
+/* Footer */
+.footer {
+  background-color: #36454f;
+  color: #dcdcdd;
+  text-align: center;
+}
